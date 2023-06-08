@@ -1,0 +1,648 @@
+/* Declaration of colors */
+
+:root {
+    --darkblue: #3F72AF;
+    --lightblue: #39AFEA;
+    --white: #F4FAFB;
+    --green: #72B03F;
+}
+/*font-family: 'Bree Serif', serif;
+font-family: 'Cinzel', serif; */
+
+
+/* typography */
+
+
+a {
+    font-size: 1.9rem;
+    color: var(--darkblue);   
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+p, div, button {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+p, a, li {
+    line-height: 110%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    font-size: 2.3rem;
+}
+
+.icons > a {
+    line-height: normal;
+}
+
+p, figcaption {
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.caption {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.computer .impressumText {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.impressum-text > a {
+    font-weight:400;
+}
+
+.introduction {
+    padding-bottom: 50px;
+}
+
+span {
+    font-size: 1.5rem;
+    color: var(--darkblue);
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    display: block;
+}
+
+/* Hiding elements for wider screens */
+
+.phone {
+    display: none;
+}
+
+.computer {
+    width: 70%;
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+}
+
+#firstTestComputer {
+    height: 192px;
+}
+
+
+
+footer {
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    max-width: 800px;
+    margin: auto;    
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+/* Icons in the navbar */
+
+#whatsapp {
+    width: 40px;
+    height: 40px;
+}
+
+#deutsch {
+    width: 50px;
+    height: 50px;
+}
+
+#ukrainisch {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#header-button {
+    display: flex;
+    height: 50px;
+    margin-right: auto;
+    max-width: 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 14px;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    gap: 5px;
+    font-size: 1.7rem;
+}
+
+#button_link {
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+
+#header-button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+#logo {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+    margin-bottom: 0px;
+    max-width: 500px;
+}
+
+
+figure {
+    width: 100%;
+}
+
+figure > img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: var(--darkblue);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+.collapsible_box {
+    background-color: var(--darkblue);
+    color: white;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 5px 0;
+    /* border-radius: 5px 50px 50px 5px; */
+  }
+
+  .collapsible {
+    cursor: pointer;
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .content > div {
+    position: relative;
+  }
+
+  .collapsible > i {
+    margin-right: auto;
+  }
+
+  .collapsible > p {
+    margin: auto;
+    margin-left: -5px;
+  }
+
+
+.collapsible.toggle {
+    background-color: #fff;
+    text-align: left;
+    padding-left: 0;
+    color: var(--darkblue);
+    width: 100%;  
+    line-height: 110%; 
+    display: block;
+    justify-content: center;
+}
+
+
+
+.collapsible.toggle > i {
+    margin-right: 10px;
+  }
+
+
+.collapsible.toggle.thirdLayer {
+    margin-top: -12px;
+    margin-left: 8px;
+}
+
+.content {
+    padding: 0px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-align: left;
+    color: black;
+    /*border: 2px solid var(--darkblue);*/
+  }
+
+.content p, li {
+    font-size: 2rem;
+    color: var(--darkblue);
+    margin-top: 10px;   
+    margin-bottom: 10px;
+    padding: 7px 0;
+    font-weight: 400;
+    opacity: 90%;
+}
+
+.content > .thirdLayer {
+    margin-top: 5px;
+    padding-bottom: 12px;
+    margin-left: 8px;
+}
+
+
+
+li {
+    margin-left: 14px;
+}
+
+.padding {
+    margin-left: -18px;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 12px;
+    text-align: center;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: -3px;
+    margin-bottom: 1px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 3px;
+    margin-right: 9px;
+  }
+
+  .dropdown {
+    border: solid var(--darkblue);
+    border-width: 0 2px 2px 0;
+    padding: 4px;
+    margin-bottom: 3px;
+  }
+
+  #mehr {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+  }
+
+  .willkommen {
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  #topics, #generelle-infos {
+    width: 100%;
+  }
+
+  #impressum {
+    display: none;
+    border: 1px solid var(--darkblue);
+    width: 70vw;
+    max-width: 400px;
+    height: auto;
+    max-height: 60vh;
+    padding: 5em;
+    padding-top: 10px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .impressumText {
+    font-size: 1.5rem;
+    color: var(--darkblue);
+    text-decoration: underline;
+    background: none;
+    border: none;
+  }
+
+  .impressumBtn {
+    display: relative;
+    height: 30px;
+  }
+
+  .closeWindow {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: var(--darkblue);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+  }
+
+  /* Toggle Switch */
+
+.toggle-switch {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 24px;
+    margin: 55px 0 5px 0;
+  }
+
+  .toggle-switch input[type="checkbox"] {
+    display: none;
+  }
+
+  .toggle-switch label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 24px;
+    background-color: var(--darkblue);
+    border-radius: 12px;
+  }
+
+  .toggle-switch label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+
+  .toggle-switch input[type="checkbox"]:checked + label {
+    background-color: #ccc;
+  }
+
+  .toggle-switch input[type="checkbox"]:checked + label:after {
+    transform: translateX(26px);
+  }
+
+
+/* Media Query for larger screens */
+
+@media (min-width: 1455px) and (min-height: 905px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 76%;
+    }
+
+    body {
+        background-color: var(--white);
+        color: var(--darkblue);
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: "left main"
+                             "left main";
+    }
+    
+    header {
+        grid-area: header;
+        position: fixed;
+        height: 90px;
+        background-color: white;
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    main {
+        grid-area: main;
+        height: 100%;
+    
+    }
+    
+    .left {
+        grid-area: left;
+        background-color: #fff;
+        height: 100vh;
+        width: 40%;
+        position: fixed;
+    }
+    }
+    
+/* Media query for mobile devices and smaller screens */
+
+@media only screen and (max-width: 1455px), (max-height: 905px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 80%;
+    }
+    
+    body {
+        background-color: var(--white);
+        color: var(--darkblue);
+        width: 100%;
+        display: relative;
+        
+        
+    }
+    header {
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .navbar {
+        width: 95%;
+        max-width: 800px;
+        margin: auto;    
+    }
+
+    nav {
+        gap: 15px;
+        height: 40px;
+    }
+    
+    .first_text.phone {
+        margin-top: 8px;
+    }
+
+    #header-button {
+        height: 40px;
+        min-width: 220px;
+        max-width: 170px;
+        padding: 0 7px;
+        border-radius: 150px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    #whatsapp {
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .introduction {
+        width: 95%;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    
+    
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    #logo {
+        margin-top: -100px;
+	    width: 100%;
+    
+    }
+
+    
+    
+    h2 {
+        margin-top: 104px;
+        margin-bottom: 32px;
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+    a {
+        font-size: 1.8rem;
+    }
+    #deutsch {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #ukrainisch {
+        width: 40px;
+        height: 40px;
+    }
+    
+
+    .collapsible.toggle {
+        text-align: left;
+    }
+    
+    .section {
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .collapsible_box {
+        font-size: 17px;
+        border-radius: 5px 5px 5px 5px;
+        width: 100%;
+      }
+
+      .collapsible > p {
+        margin-left: 0;
+      }
+
+   #titlephone {
+        margin-top: 110px;
+
+    }
+    .content > p, li {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .phone {
+        display:block;
+        margin-top: -10px;
+        margin-top: 150px;
+    }
+
+    .content:last-of-type {
+        border-radius: 0;
+    }
+    
+
+    .computer {
+        display: none;
+    }
+
+    .caption {
+        margin-bottom: 40px;
+    }
+
+    
+}
+
