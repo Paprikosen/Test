@@ -1,4 +1,4 @@
-import { posts } from '/content.js';
+import { posts } from './content.js';
 // import { postsGeneral } from '/contentGeneral.js';
 
    const topics = document.getElementById('topics')
